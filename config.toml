@@ -3,6 +3,7 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "tiggerk"
 theme = "hugo-paper"
+publishDir = "docs"
 #title = "Yak Shaving"
 #theme = "base16"
 
