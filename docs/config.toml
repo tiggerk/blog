@@ -1,0 +1,31 @@
+baseURL = "https://tiggerk.github.io/"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "tiggerk"
+theme = "hugo-paper"
+publishDir = "docs"
+
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[author]
+  name = "tiggerk"
+  bio = "개발이 너무 좋은 **혀니혀니혀니현**"
+  job = "backend developer"
+  location = "Seoul, Korea"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  gravatarEmail = "tiggerhyun@gmail.com"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  picture = "https://avatars2.githubusercontent.com/u/8788205?s=400&u=46c8b4dc5fae4998f29d0b2285e89f3d8672a84b&v=4"
+
+  # Your Twitter username without the @. E.g : thibaudlepretre
+  twitter = "tiggerk"
+
+
